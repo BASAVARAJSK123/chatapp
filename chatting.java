@@ -31,10 +31,10 @@ public class GroupChat
                 Thread t = new Thread(new
                 ReadThread(socket,group,port));
               
-                // Spawn a thread for reading messages
+                
                 t.start(); 
                   
-                // sent to the current group
+                
                 System.out.println("Start typing messages...\n");
                 while(true)
                 {
